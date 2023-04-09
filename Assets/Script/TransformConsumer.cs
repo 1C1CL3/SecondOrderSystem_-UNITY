@@ -25,10 +25,11 @@ public class TransformConsumer : MonoSingleton<Transform>
     void FixedUpdate()
     {
         Vector3 _oldPosition = transform.position;
-
+        // just an orbit physics
         orbit = Quaternion.AngleAxis(speed * Time.deltaTime, axis) * orbit;
-        transform.position = Vector3.Lerp(transform.position, Instance.position + orbit, (1 - bounce) * damping * Time.deltaTime);
 
+        // Second Order System
+        transform.position = Vector3.Lerp(transform.position, Instance.position + orbit, (1 - bounce) * damping * Time.deltaTime);
         transform.position = (1 + bounce) * transform.position - bounce * oldPosition;
         oldPosition = _oldPosition;
 
