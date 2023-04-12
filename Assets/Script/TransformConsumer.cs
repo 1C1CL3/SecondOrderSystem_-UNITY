@@ -15,6 +15,7 @@ public class TransformConsumer : MonoSingleton<Transform>
 
     protected override void Awake()
     {
+        // make orbit physics
         orbit = Random.onUnitSphere * radius;
         transform.position = Instance.position + orbit;
         axis = Random.onUnitSphere;
