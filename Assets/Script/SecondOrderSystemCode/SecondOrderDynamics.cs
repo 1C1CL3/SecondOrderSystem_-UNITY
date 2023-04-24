@@ -6,9 +6,56 @@ using UnityEngine;
 
 public class SecondOrderDynamics : MonoBehaviour
 {
+    private SecondOrderState _state;
+
+    [SerializeField]
+    internal SecondOrderSettings settings;
+
+    /// <summary>
+    /// A default second order dynamics system that has some sane default values to produce eased movement.
+    /// </summary>
+    public static SecondOrderDynamics Default => new();
+
     private Vector3 xp;// prvious input
     private Vector3 y, yd;// state variables
-    private float k1, k2, k3;//dynamics constants
+    public float k1, k2, k3;//dynamics constants
+
+
+    /// <summary>
+    /// Resets the system to the original initial value.
+    /// </summary>
+    public void Reset() => ResetTemporaryIv(_state.InitialValue);
+
+    /// <summary>
+    /// Resets the system to the given initial value, and optionally
+    /// the initial velocity.
+    /// </summary>
+    /// <param name="newIv"></param>
+    /// <param name="newVelocity"></param>
+    public void Reset(float newIv, float newVelocity = default)
+    {
+        _state.InitialValue = newIv;
+        ResetTemporaryIv(_state.InitialValue, newVelocity);
+    }
+
+
+    internal void ResetTemporaryIv(float iv, float newYd = default)
+    {
+        _state.PreviousTargetValue = iv;
+        _state.CurrentValue = iv;
+        _state.LastStableValue = iv;
+        _state.CurrentVelocity = newYd;
+        _state.DeltaTime = 0;
+        _state.ElapsedTime = 0;
+        ResampleUserInputs();
+    }
+
+    private void ResampleUserInputs()
+    {
+        _state.F = settings.SampleF(in _state);
+        _state.Z = settings.SampleZ(in _state);
+        _state.R = settings.SampleR(in _state);
+    }
 
     public void SecondOrderDynamic(float f, float z, float r, Vector3 x0)
     {

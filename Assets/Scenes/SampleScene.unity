@@ -155,8 +155,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &6015773
 SphereCollider:
@@ -268,8 +269,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &7639223
 SphereCollider:
@@ -381,8 +383,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &11560555
 SphereCollider:
@@ -494,8 +497,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &17108959
 SphereCollider:
@@ -607,8 +611,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &17218067
 SphereCollider:
@@ -720,8 +725,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &30895511
 SphereCollider:
@@ -833,8 +839,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &38166393
 SphereCollider:
@@ -946,8 +953,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &49582973
 SphereCollider:
@@ -1059,8 +1067,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &53105319
 SphereCollider:
@@ -1172,8 +1181,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &72957761
 SphereCollider:
@@ -1285,8 +1295,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &89864276
 SphereCollider:
@@ -1398,8 +1409,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &96951167
 SphereCollider:
@@ -1511,8 +1523,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &107703599
 SphereCollider:
@@ -1624,8 +1637,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &109668700
 SphereCollider:
@@ -1737,8 +1751,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &116413004
 SphereCollider:
@@ -1850,8 +1865,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &119079523
 SphereCollider:
@@ -1963,8 +1979,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &128453883
 SphereCollider:
@@ -2076,8 +2093,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &128837501
 SphereCollider:
@@ -2189,8 +2207,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &141738085
 SphereCollider:
@@ -2302,8 +2321,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &149124805
 SphereCollider:
@@ -2415,8 +2435,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &151372895
 SphereCollider:
@@ -2606,8 +2627,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!1 &184975377
 GameObject:
@@ -2641,8 +2663,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &184975379
 SphereCollider:
@@ -2754,8 +2777,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &237536882
 SphereCollider:
@@ -2867,8 +2891,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &240198025
 SphereCollider:
@@ -2980,8 +3005,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &258768707
 SphereCollider:
@@ -3093,8 +3119,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &260757237
 SphereCollider:
@@ -3206,8 +3233,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &264572484
 SphereCollider:
@@ -3319,8 +3347,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &283475775
 SphereCollider:
@@ -3432,8 +3461,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &290640500
 SphereCollider:
@@ -3545,8 +3575,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &295668465
 SphereCollider:
@@ -3658,8 +3689,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &299175351
 SphereCollider:
@@ -3771,8 +3803,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &299351173
 SphereCollider:
@@ -3884,8 +3917,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &302567044
 SphereCollider:
@@ -3997,8 +4031,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &303614377
 SphereCollider:
@@ -4110,8 +4145,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &303797720
 SphereCollider:
@@ -4223,8 +4259,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &310771611
 SphereCollider:
@@ -4336,8 +4373,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &318728413
 SphereCollider:
@@ -4449,8 +4487,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &325186390
 SphereCollider:
@@ -4680,8 +4719,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &333639983
 SphereCollider:
@@ -4793,8 +4833,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &337065306
 SphereCollider:
@@ -4906,8 +4947,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &347886309
 SphereCollider:
@@ -5019,8 +5061,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &351643114
 SphereCollider:
@@ -5132,8 +5175,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &360372662
 SphereCollider:
@@ -5245,8 +5289,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &364168025
 SphereCollider:
@@ -5358,8 +5403,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &376866876
 SphereCollider:
@@ -5471,8 +5517,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &380778731
 SphereCollider:
@@ -5584,8 +5631,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &381731997
 SphereCollider:
@@ -5812,8 +5860,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &414220283
 SphereCollider:
@@ -5925,8 +5974,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &419571211
 SphereCollider:
@@ -6038,8 +6088,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &424130156
 SphereCollider:
@@ -6151,8 +6202,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &428592015
 SphereCollider:
@@ -6264,8 +6316,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &432490103
 SphereCollider:
@@ -6377,8 +6430,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &439628325
 SphereCollider:
@@ -6490,8 +6544,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &440003808
 SphereCollider:
@@ -6603,8 +6658,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &455739807
 SphereCollider:
@@ -6716,8 +6772,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &459039048
 SphereCollider:
@@ -6829,8 +6886,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &463338841
 SphereCollider:
@@ -6942,8 +7000,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &464164351
 SphereCollider:
@@ -7055,8 +7114,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &466779551
 SphereCollider:
@@ -7168,8 +7228,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &468360391
 SphereCollider:
@@ -7281,8 +7342,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &470165173
 SphereCollider:
@@ -7394,8 +7456,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &472747916
 SphereCollider:
@@ -7507,8 +7570,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &486680682
 SphereCollider:
@@ -7620,8 +7684,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &493763072
 SphereCollider:
@@ -7733,8 +7798,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &497261557
 SphereCollider:
@@ -7846,8 +7912,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &499395033
 SphereCollider:
@@ -7959,8 +8026,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &504607629
 SphereCollider:
@@ -8072,8 +8140,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &505634169
 SphereCollider:
@@ -8185,8 +8254,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &506634431
 SphereCollider:
@@ -8298,8 +8368,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &519385652
 SphereCollider:
@@ -8411,8 +8482,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &537576094
 SphereCollider:
@@ -8524,8 +8596,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &538526783
 SphereCollider:
@@ -8637,8 +8710,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &544983193
 SphereCollider:
@@ -8750,8 +8824,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &550461027
 SphereCollider:
@@ -8863,8 +8938,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &556060881
 SphereCollider:
@@ -8976,8 +9052,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &572811726
 SphereCollider:
@@ -9089,8 +9166,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &590643730
 SphereCollider:
@@ -9202,8 +9280,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &593176023
 SphereCollider:
@@ -9315,8 +9394,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &593314073
 SphereCollider:
@@ -9428,8 +9508,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &618057096
 SphereCollider:
@@ -9541,8 +9622,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &618968639
 SphereCollider:
@@ -9654,8 +9736,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &622474172
 SphereCollider:
@@ -9767,8 +9850,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &627216917
 SphereCollider:
@@ -9880,8 +9964,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &645502421
 SphereCollider:
@@ -9993,8 +10078,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &652544497
 SphereCollider:
@@ -10106,8 +10192,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &659441565
 SphereCollider:
@@ -10219,8 +10306,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &671795333
 SphereCollider:
@@ -10332,8 +10420,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &673569922
 SphereCollider:
@@ -10445,8 +10534,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &680457793
 SphereCollider:
@@ -10558,8 +10648,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &682613514
 SphereCollider:
@@ -10671,8 +10762,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &688667532
 SphereCollider:
@@ -10784,8 +10876,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &696017089
 SphereCollider:
@@ -10897,8 +10990,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &713118727
 SphereCollider:
@@ -11010,8 +11104,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &723099512
 SphereCollider:
@@ -11123,8 +11218,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &738215287
 SphereCollider:
@@ -11236,8 +11332,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &739329691
 SphereCollider:
@@ -11349,8 +11446,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &748937183
 SphereCollider:
@@ -11462,8 +11560,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &761515041
 SphereCollider:
@@ -11575,8 +11674,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &776024887
 SphereCollider:
@@ -11688,8 +11788,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &777022774
 SphereCollider:
@@ -11801,8 +11902,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &777442632
 SphereCollider:
@@ -11914,8 +12016,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &786185957
 SphereCollider:
@@ -12027,8 +12130,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &787815868
 SphereCollider:
@@ -12140,8 +12244,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &788173358
 SphereCollider:
@@ -12253,8 +12358,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &790321977
 SphereCollider:
@@ -12366,8 +12472,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &794787412
 SphereCollider:
@@ -12479,8 +12586,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &796077005
 SphereCollider:
@@ -12592,8 +12700,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &820700244
 SphereCollider:
@@ -12705,8 +12814,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &823316940
 SphereCollider:
@@ -12818,8 +12928,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &828091722
 SphereCollider:
@@ -12980,8 +13091,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &849064785
 SphereCollider:
@@ -13093,8 +13205,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &852755027
 SphereCollider:
@@ -13206,8 +13319,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &856651738
 SphereCollider:
@@ -13319,8 +13433,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &860142501
 SphereCollider:
@@ -13432,8 +13547,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &862779780
 SphereCollider:
@@ -13545,8 +13661,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &894703404
 SphereCollider:
@@ -13658,8 +13775,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &907757973
 SphereCollider:
@@ -13771,8 +13889,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &915438928
 SphereCollider:
@@ -13884,8 +14003,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &917664977
 SphereCollider:
@@ -13997,8 +14117,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &918749742
 SphereCollider:
@@ -14110,8 +14231,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &929636091
 SphereCollider:
@@ -14223,8 +14345,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &946748256
 SphereCollider:
@@ -14336,8 +14459,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &956938969
 SphereCollider:
@@ -14449,8 +14573,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &957642263
 SphereCollider:
@@ -14562,8 +14687,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &965383728
 SphereCollider:
@@ -14675,8 +14801,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &969791184
 SphereCollider:
@@ -14788,8 +14915,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &973833290
 SphereCollider:
@@ -14901,8 +15029,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &982637905
 SphereCollider:
@@ -15014,8 +15143,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &986619547
 SphereCollider:
@@ -15127,8 +15257,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &989745411
 SphereCollider:
@@ -15240,8 +15371,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1002690620
 SphereCollider:
@@ -15353,8 +15485,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1003526990
 SphereCollider:
@@ -15466,8 +15599,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1008712245
 SphereCollider:
@@ -15579,8 +15713,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1008871846
 SphereCollider:
@@ -15692,8 +15827,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1014053782
 SphereCollider:
@@ -15805,8 +15941,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1021682154
 SphereCollider:
@@ -15918,8 +16055,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1022475765
 SphereCollider:
@@ -16031,8 +16169,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1023343527
 SphereCollider:
@@ -16144,8 +16283,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1027130776
 SphereCollider:
@@ -16257,8 +16397,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1035712987
 SphereCollider:
@@ -16370,8 +16511,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1058226165
 SphereCollider:
@@ -16483,8 +16625,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1058261427
 SphereCollider:
@@ -16596,8 +16739,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1074183733
 SphereCollider:
@@ -16709,8 +16853,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1086234960
 SphereCollider:
@@ -16822,8 +16967,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1086282992
 SphereCollider:
@@ -16935,8 +17081,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1095604420
 SphereCollider:
@@ -17048,8 +17195,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1096034051
 SphereCollider:
@@ -17161,8 +17309,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1097985389
 SphereCollider:
@@ -17274,8 +17423,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1099308058
 SphereCollider:
@@ -17387,8 +17537,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1123459955
 SphereCollider:
@@ -17500,8 +17651,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1126792602
 SphereCollider:
@@ -17613,8 +17765,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1126955911
 SphereCollider:
@@ -17726,8 +17879,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1134689421
 SphereCollider:
@@ -17839,8 +17993,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1134806446
 SphereCollider:
@@ -17952,8 +18107,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1136766800
 SphereCollider:
@@ -18065,8 +18221,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1139090336
 SphereCollider:
@@ -18178,8 +18335,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1164046684
 SphereCollider:
@@ -18291,8 +18449,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1166570651
 SphereCollider:
@@ -18404,8 +18563,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1174188609
 SphereCollider:
@@ -18517,8 +18677,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1183022784
 SphereCollider:
@@ -18630,8 +18791,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1192910496
 SphereCollider:
@@ -18743,8 +18905,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1197472451
 SphereCollider:
@@ -18856,8 +19019,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1202488522
 SphereCollider:
@@ -18969,8 +19133,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1203833206
 SphereCollider:
@@ -19082,8 +19247,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1242846719
 SphereCollider:
@@ -19195,8 +19361,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1248017050
 SphereCollider:
@@ -19308,8 +19475,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1256047052
 SphereCollider:
@@ -19421,8 +19589,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1277572825
 SphereCollider:
@@ -19534,8 +19703,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1277593938
 SphereCollider:
@@ -19647,8 +19817,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1297371499
 SphereCollider:
@@ -19760,8 +19931,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1297517969
 SphereCollider:
@@ -19873,8 +20045,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1300168325
 SphereCollider:
@@ -19986,8 +20159,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1310174696
 SphereCollider:
@@ -20099,8 +20273,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1325378031
 SphereCollider:
@@ -20212,8 +20387,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1345877836
 SphereCollider:
@@ -20325,8 +20501,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1357730379
 SphereCollider:
@@ -20438,8 +20615,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1377520416
 SphereCollider:
@@ -20551,8 +20729,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1377947972
 SphereCollider:
@@ -20664,8 +20843,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1402973305
 SphereCollider:
@@ -20777,8 +20957,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1412088631
 SphereCollider:
@@ -20890,8 +21071,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1412244284
 SphereCollider:
@@ -21003,8 +21185,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1420047826
 SphereCollider:
@@ -21116,8 +21299,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1423723859
 SphereCollider:
@@ -21229,8 +21413,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1447600781
 SphereCollider:
@@ -21342,8 +21527,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1448228303
 SphereCollider:
@@ -21455,8 +21641,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1449301173
 SphereCollider:
@@ -21568,8 +21755,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1491146920
 SphereCollider:
@@ -21681,8 +21869,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1494796597
 SphereCollider:
@@ -21794,8 +21983,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1513765189
 SphereCollider:
@@ -21907,8 +22097,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1527060055
 SphereCollider:
@@ -22020,8 +22211,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1529054303
 SphereCollider:
@@ -22133,8 +22325,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1544533846
 SphereCollider:
@@ -22246,8 +22439,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1544630257
 SphereCollider:
@@ -22359,8 +22553,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1545625942
 SphereCollider:
@@ -22472,8 +22667,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1548545910
 SphereCollider:
@@ -22585,8 +22781,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1552797630
 SphereCollider:
@@ -22698,8 +22895,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1562609293
 SphereCollider:
@@ -22811,8 +23009,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1577019575
 SphereCollider:
@@ -22924,8 +23123,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1577032274
 SphereCollider:
@@ -23037,8 +23237,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1584611750
 SphereCollider:
@@ -23150,8 +23351,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1586234729
 SphereCollider:
@@ -23263,8 +23465,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1589679581
 SphereCollider:
@@ -23376,8 +23579,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1595184482
 SphereCollider:
@@ -23489,8 +23693,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1598445641
 SphereCollider:
@@ -23602,8 +23807,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1614109236
 SphereCollider:
@@ -23715,8 +23921,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1622024681
 SphereCollider:
@@ -23828,8 +24035,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1630146346
 SphereCollider:
@@ -23941,8 +24149,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1644560047
 SphereCollider:
@@ -24054,8 +24263,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1651186584
 SphereCollider:
@@ -24167,8 +24377,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1651804220
 SphereCollider:
@@ -24280,8 +24491,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1673925822
 SphereCollider:
@@ -24393,8 +24605,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1677065493
 SphereCollider:
@@ -24506,8 +24719,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1701610458
 SphereCollider:
@@ -24619,8 +24833,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1704629421
 SphereCollider:
@@ -24732,8 +24947,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1744035670
 SphereCollider:
@@ -24845,8 +25061,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1757551696
 SphereCollider:
@@ -24958,8 +25175,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1760596702
 SphereCollider:
@@ -25071,8 +25289,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1767335984
 SphereCollider:
@@ -25184,8 +25403,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1773286895
 SphereCollider:
@@ -25297,8 +25517,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1785519947
 SphereCollider:
@@ -25410,8 +25631,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1786911895
 SphereCollider:
@@ -25523,8 +25745,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1794323787
 SphereCollider:
@@ -25636,8 +25859,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1798232611
 SphereCollider:
@@ -25749,8 +25973,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1798625092
 SphereCollider:
@@ -25862,8 +26087,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1812885903
 SphereCollider:
@@ -25975,8 +26201,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1819302315
 SphereCollider:
@@ -26088,8 +26315,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1822708558
 SphereCollider:
@@ -26201,8 +26429,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1824075738
 SphereCollider:
@@ -26314,8 +26543,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1843217587
 SphereCollider:
@@ -26427,8 +26657,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1847240151
 SphereCollider:
@@ -26540,8 +26771,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1869072360
 SphereCollider:
@@ -26653,8 +26885,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1872776193
 SphereCollider:
@@ -26766,8 +26999,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1876691099
 SphereCollider:
@@ -26879,8 +27113,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1879314752
 SphereCollider:
@@ -26992,8 +27227,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1891987729
 SphereCollider:
@@ -27105,8 +27341,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1893568375
 SphereCollider:
@@ -27218,8 +27455,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1902906735
 SphereCollider:
@@ -27331,8 +27569,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1910477248
 SphereCollider:
@@ -27444,8 +27683,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1910639743
 SphereCollider:
@@ -27557,8 +27797,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1923335368
 SphereCollider:
@@ -27670,8 +27911,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1935498074
 SphereCollider:
@@ -27783,8 +28025,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1957106306
 SphereCollider:
@@ -27896,8 +28139,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1958646977
 SphereCollider:
@@ -28009,8 +28253,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1961509667
 SphereCollider:
@@ -28122,8 +28367,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1963275678
 SphereCollider:
@@ -28235,8 +28481,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1985670017
 SphereCollider:
@@ -28348,8 +28595,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1986861327
 SphereCollider:
@@ -28461,8 +28709,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &2000162783
 SphereCollider:
@@ -28574,8 +28823,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &2017632330
 SphereCollider:
@@ -28687,8 +28937,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &2018344668
 SphereCollider:
@@ -28800,8 +29051,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &2024977464
 SphereCollider:
@@ -28913,8 +29165,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &2043352677
 SphereCollider:
@@ -29026,8 +29279,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &2045832375
 SphereCollider:
@@ -29139,8 +29393,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &2047945655
 SphereCollider:
@@ -29252,8 +29507,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &2054423416
 SphereCollider:
@@ -29365,8 +29621,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &2063619275
 SphereCollider:
@@ -29478,8 +29735,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &2067146300
 SphereCollider:
@@ -29591,8 +29849,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &2077084319
 SphereCollider:
@@ -29704,8 +29963,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &2080837850
 SphereCollider:
@@ -29817,8 +30077,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &2124086741
 SphereCollider:
@@ -29930,8 +30191,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &2133847006
 SphereCollider:
@@ -30043,8 +30305,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465cc869620e0154ca898a15d22113e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 5
+  damping: 12
   bounce: 0.9
+  pull: 0.5
   oldPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &2146548456
 SphereCollider:
