@@ -4,21 +4,28 @@ using UnityEngine;
 
 public class SecondOrderDy : MonoBehaviour
 {
+    private SecondOrderState _state;
 
     public float k1; // damping coefficient
     public float k2; // spring constant
     public float k3; // input gain
 
-    public float f;
-    public float z;
-    public float r;
+    public float f => _state.F;
+    public float z => _state.Z;
+    public float r => _state.R;
 
     public float dt; // time step
-    private Vector3 y, yd;// state variables x position of the vector yd is acceleration
-    private Vector3 x, xd; // x velocity of the vector
+    private Vector3 velocity, yd;// state variables x velocity of the vector
+    private Vector3 position, xd; // y position of the vector
     private Vector3 targetPosition;// prvious input
 
+    private Vector3 previousTargetValue; // prvious input
+    private Vector3 targetVelocity;
+    private Vector3 currentValue; // prvious input
+    private Vector3 currentVelocity;
+
     public Transform targetTransform;
+
 
     void Start()
     {
@@ -30,8 +37,9 @@ public class SecondOrderDy : MonoBehaviour
         k2 = 1 / ((2 * Mathf.PI * f) * (2 * Mathf.PI * f));
         k3 = r * z / (2 * Mathf.PI * f);
         // initialize variables
-        targetPosition = targetTransform.position;
-        y = targetTransform.position;
+        previousTargetValue = targetTransform.position;
+        currentValue = targetTransform.position;
+        currentVelocity = default;
         //yd = Vector3.zero;
     }
 
@@ -42,18 +50,26 @@ public class SecondOrderDy : MonoBehaviour
         dt = Time.fixedDeltaTime;
 
 
-        if (xd == null)// estimate velocity
+        //if (xd == null)// estimate velocity
+        //{
+        //    xd = (x - targetPosition) / dt;
+        //    xd = (x - targetPosition) / dt;
+        //    targetPosition = x;
+        //}
+        //y = y + dt * yd;
+        //yd = yd + dt * (x + k3 * xd - y - k1 * yd) / k2;
+        //transform.position = y;
+        //xp = targetPosition, x = targetTransform.position, xd = targetVelocity, y = currentValue, yd = currentVelocity, 
+
+        if (targetVelocity == null)
         {
-            xd = (x - targetPosition) / dt;
-            xd = (x - targetPosition) / dt;
-            targetPosition = x;
+            targetVelocity = (targetTransform.position - previousTargetValue) / dt;
+            previousTargetValue = targetTransform.position;
         }
-        y = y + dt * yd;
-        yd = yd + dt * (x+ k3 * xd - y - k1 * yd) / k2;
-        transform.position = x;
+        currentValue = currentValue + dt * currentVelocity;
+        currentVelocity = currentVelocity + dt * (targetTransform.position + (k3 * targetVelocity) - currentValue - (k1 * currentVelocity)) / k2;
 
-
-
+        transform.position = currentValue;
 
 
         //transform.position = new Vector3(position.x, position.y, 0f);
