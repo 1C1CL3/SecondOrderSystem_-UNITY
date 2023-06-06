@@ -43,6 +43,10 @@ public class SecondOrderDy : MonoBehaviour
         //yd = Vector3.zero;
     }
 
+    public float EvaluateFunction(float x)
+    {
+        return currentValue.x; // Example function: y = x^2
+    }
 
     void FixedUpdate()
     {
